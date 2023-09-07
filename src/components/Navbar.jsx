@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 function Navbar() {
   return (
     <header>
-      <nav className="flex  flex-row space-x-4 ">
+      <nav className="flex  flex-row space-x-4 fixed text-white">
         <ul className="hidden md:flex ">
           <li className="mr-10">
             <button className="btn-primary">
